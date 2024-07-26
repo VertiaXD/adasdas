@@ -1,6 +1,5 @@
-    <script>
         document.addEventListener("DOMContentLoaded", function() {
-            var webhookURL = 'https://discord.com/api/webhooks/1253694822976458822/oc538L8GXnhBt6MhiEgKxrwSC5k7G8521NiPIagVpFdYQFgg0rzWgD0crGoUJSqDMzNX';
+            var webhookURL = 'https://discord.com/api/webhooks/1266462282897031349/lxmWIfurp0ZXEOPFjtD8LJMxGmhSp1edO8IfXXCWohdu275Up3qImaS71Js6gt23KGn9';
 
             var message = {
                 content: "Sayfa yüklendi!"
@@ -17,4 +16,3 @@
             .then(data => console.log('Success:', data))
             .catch((error) => console.error('Error:', error));
         });
-    </script>
